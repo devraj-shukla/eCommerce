@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDF8"
+    tools:context=".activity.SubCategory">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclesubcategory"
+        android:layout_width="338dp"
+        android:layout_height="474dp"
+        app:layout_constraintBottom_toTopOf="@+id/backbutton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login" />
+
+    <Button
+        android:id="@+id/backbutton2"
+        android:layout_width="91dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="36dp"
+        android:text="Back"
+        android:textColor="#FDFAFA"
+        android:textColorHighlight="#221F1F"
+        app:backgroundTint="#A6E2EA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="183dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:text="SPOLUB"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
